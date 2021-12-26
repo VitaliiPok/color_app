@@ -1,11 +1,11 @@
-// ignore_for_file: use_key_in_widget_constructors, prefer_const_constructors_in_immutables
+// ignore_for_file: use_key_in_widget_constructors 
 
 import 'package:flutter/material.dart';
 
 // this class was created to reuse the widget
 
 class ReusableCard extends StatelessWidget {
-  ReusableCard(
+  const ReusableCard(
       {required this.onPressed, required this.cardChild, required this.color});
 
   final VoidCallback onPressed;

@@ -1,6 +1,6 @@
 # color_application
 
-A new Flutter project.
+An application that can change a backgroud color of the screen to a randomly generated color
 
 ## Getting Started
 

@@ -1,4 +1,4 @@
-// ignore_for_file: use_key_in_widget_constructors, prefer_const_constructors
+// ignore_for_file: use_key_in_widget_constructors 
 
 import 'package:flutter/material.dart';
 import './input_page.dart';
@@ -11,7 +11,7 @@ class RandomColorApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Center(
+          title: const Center(
             child: Text(
               'Random Color Application',
             ),

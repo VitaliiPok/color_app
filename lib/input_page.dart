@@ -1,4 +1,4 @@
-// ignore_for_file: use_key_in_widget_constructors, prefer_const_constructors
+// ignore_for_file: use_key_in_widget_constructors 
 
 import 'package:flutter/material.dart';
 import 'dart:math';
@@ -11,7 +11,7 @@ class InputPage extends StatefulWidget {
 }
 
 class _InputPageState extends State<InputPage> {
-  Color randomColor = Color.fromRGBO(255, 255, 255, 1);
+  Color randomColor = const Color.fromRGBO(255, 255, 255, 1);
 
   void getRandomColor() {
     setState(
@@ -30,7 +30,7 @@ class _InputPageState extends State<InputPage> {
   Widget build(BuildContext context) {
     return ReusableCard(
       onPressed: getRandomColor,
-      cardChild: Text(
+      cardChild: const Text(
         'Hey there',
         style: kCenterTextStyle,
       ),
